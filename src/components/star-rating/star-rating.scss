@@ -1,0 +1,13 @@
+star-rating {
+    .star_img{
+        height: 16px;
+        width: 16px;
+    }
+    .ranking{
+        color: #333333;
+        font-size: 1.4rem;
+    }
+    .active{
+        color: color( $colors,rat )
+    }
+}

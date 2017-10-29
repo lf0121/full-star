@@ -1,0 +1,6 @@
+<!-- Generated template for the StarRatingComponent component -->
+<div>
+    <!-- <ion-icon name='stars' *ngFor='let item of starArray;let i=index' [ngClass]="{'active':i<_rank}" ></ion-icon> -->
+    <img class="star_img" src="{{ item.img }}" *ngFor='let item of starArray;let i=index'>
+    <span class="ranking" *ngIf='show' >{{ _rank }}</span>
+</div>
